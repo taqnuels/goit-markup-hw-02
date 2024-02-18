@@ -91,6 +91,10 @@ main section ul li {
     margin-bottom: 20px;
 }
 
+main section ul li:first-child a {
+    font-weight: 500;
+}
+
 main section ul img {
     border: 1px solid #ccc;
 }
