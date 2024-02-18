@@ -4,17 +4,6 @@ body {
     background-color: #FFFFFF;
 }
 
-
-
-body,
-h1,
-h2,
-h3,
-p,
-li {
-    font-family: 'Roboto', 'Arial', sans-serif;
-}
-
 header {
     background-color: #333;
     color: #fff;
@@ -31,9 +20,6 @@ header {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo span {
-    color: #2e2f42;
-}
 
 a.custom-link {
     line-height: 1.5;
@@ -49,80 +35,38 @@ a.custom-link:focus {
     color: #404bbf;
 }
 
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+address.custom-class {
+    font-style: normal;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+section.custom-section {
+    background-color: #2e2f42;
 }
 
-section {
-    padding: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
+section.custom-section h2.custom-header {
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-    padding: 10px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-
-.button {
+section.custom-section button.custom-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
 }
 
-
-.button:hover,
-.button:focus,
-a:hover,
-a:focus {
-    color: #ff5733;
+section.custom-section button.custom-button:hover {
+    background-color: #404BBF;
 }
 
-
-a {
-    text-decoration: none;
+section.custom-section button.custom-button:active {
+    background-color: #404BBF;
 }
 
-
-main section ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-main section ul li {
-    margin-bottom: 20px;
-}
-
-main section ul li:first-child a {
-    font-weight: 500;
-}
-
-main section ul img {
-    border: 1px solid #ccc;
-}
-
-main section ul p {
-    margin-top: 10px;
-}
-
-footer a {
-    color: #ff5733;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
