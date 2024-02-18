@@ -2,8 +2,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    line-height: 1.6;
 }
 
+/* Nawigacja */
 header {
     background-color: #333;
     color: #fff;
@@ -21,10 +23,22 @@ header {
     color: #4d5ae5;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Linki */
 a.custom-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 a.custom-link:hover {
@@ -35,14 +49,18 @@ a.custom-link:focus {
     color: #404bbf;
 }
 
+/* Adres w headerze */
 address.custom-class {
     font-style: normal;
 }
 
+/* Sekcje */
 section.custom-section {
     background-color: #2e2f42;
+    padding: 20px;
 }
 
+/* Nagłówki sekcji */
 section.custom-section h2.custom-header {
     font-size: 56px;
     line-height: 1.07;
@@ -51,6 +69,7 @@ section.custom-section h2.custom-header {
     color: #ffffff;
 }
 
+/* Przycisk w sekcji */
 section.custom-section button.custom-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -69,4 +88,3 @@ section.custom-section button.custom-button:hover {
 section.custom-section button.custom-button:active {
     background-color: #404BBF;
 }
-
