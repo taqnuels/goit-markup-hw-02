@@ -35,6 +35,21 @@ header {
     color: #2e2f42;
 }
 
+a.custom-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+a.custom-link:hover {
+    color: #404bbf;
+}
+
+a.custom-link:focus {
+    color: #404bbf;
+}
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
